@@ -14,7 +14,7 @@ terraform {
 
 provider "google" {
   project     = "test-project-400805"
-  credentials = file("../backend-creation/test-project-400805-76e4afe348bf.json")
+  credentials = file("../backend-creation/SA.json")
   region      = "asia-south1"
 }
 
