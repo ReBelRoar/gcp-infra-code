@@ -7,7 +7,7 @@ terraform{
     }
 }
 provider "google" {
-    credentials   = "test-project-400805-76e4afe348bf.json"
+    credentials   = "SA.json"
     project       = "test-project-400805"
 }
 resource "google_storage_bucket" "terraform_state_backend_bucket" {
