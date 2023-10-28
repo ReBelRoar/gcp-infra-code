@@ -2,7 +2,7 @@ terraform {
   backend "gcs" {
     bucket      = "terraform_state_backend_bucket"
     prefix      = "basics"
-    credentials = "backend-creation/test-project-400805-76e4afe348bf.json"
+    credentials = "backend-creation/SA.json"
   }
   required_providers {
     google = {
