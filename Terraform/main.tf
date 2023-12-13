@@ -15,7 +15,7 @@ terraform {
 provider "google" {
   project     = "test-project-400805"
   region      = "europe-central2"
-  credentials = "backend-creation/test-project-400805-76e4afe348bf.json"
+  credentials = "backend-creation/SA.json"
 }
 
 resource "google_compute_subnetwork" "subnet2" {
