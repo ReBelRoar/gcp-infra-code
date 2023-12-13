@@ -13,7 +13,7 @@ terraform {
 }
 
 provider "google" {
-  project     = "test-project-400805"
+  project     = "test-project"
   region      = "europe-central2"
   credentials = "backend-creation/SA.json"
 }
